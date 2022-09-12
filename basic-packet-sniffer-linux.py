@@ -1,4 +1,6 @@
+'''
 import socket
+
 
 def main():
     s = socket.socket(socket.AF_PACKET, socket.SOCK_RAW, socket.ntohs(3))
